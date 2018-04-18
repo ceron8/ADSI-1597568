@@ -1,0 +1,119 @@
+*{
+   font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: grey;
+}
+
+header{
+    display: block;
+    margin:auto;
+    width: 600px;
+    background:cornflowerblue ;
+}
+
+
+.container{
+    display: block;
+    margin:auto;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.container2{
+    display: block;
+    margin:auto;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.container3{
+    display: block;
+    margin:auto;
+    width: 600px;
+}
+.container3 h2{
+    text-align: center
+}
+.jop_Reference{
+    display: flex;
+}
+
+.logo div img{
+    margin-top: 10px;
+    height: 170px;
+    width: 110px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box p{
+    margin-top: -1px;
+    margin-left: 40px;
+}
+.box2 p{
+    margin-top: -1px;
+    margin-left: 100px;
+}
+.box1 p{
+    margin-top: -1px;
+    margin-left: 55px;
+}
+hr{
+    width: 100%;
+}
+
+
+@media (max-width: 640px){
+    .container{
+        display: block;
+        margin:auto;
+    }
+    .container2{
+        display: block;
+        margin:auto;
+    }
+    .container3{
+        display: block;
+        margin:auto;
+    }
+    .box{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .box2{
+        margin-left: 80px;
+        margin-right: 80px;    }
+    .box1{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    header{
+        background:cornflowerblue ;
+    }
+    .personal_reference p{
+        font-size: 25px;
+    }
+}
