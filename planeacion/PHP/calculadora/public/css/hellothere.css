@@ -1,0 +1,14 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+   display: flex;
+   align-content: center;
+}
+body{
+    background: aqua;
+    height: 100vh;
+    display: flex;
+    flex-items: column;
+    align-content: center;
+    
+}
+
